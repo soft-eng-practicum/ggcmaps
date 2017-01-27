@@ -40,7 +40,7 @@ Presentations
 #### Current Members (Spring '17)
 1. David Rivera - Project Manager/Client Liason
 2. Margaret Muse- UI/Documentation
-3. [Team Member 3] - Position/Role
+3. Carlos Pacheco - Programmer/Testing
 4. [Team Member 4] - Position/Role
 
 #### Previous Members
