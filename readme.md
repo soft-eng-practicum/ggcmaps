@@ -41,7 +41,7 @@ Presentations
 1. David Rivera - Project Manager/Client Liason
 2. Margaret Muse- UI/Documentation
 3. Carlos Pacheco - Programmer/Testing
-4. Joshua Gerth - Data Modeler
+4. Joshua Gerth - Data Modeler/Programmer
 
 #### Previous Members
 ##### (Fall '16)
