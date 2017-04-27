@@ -194,7 +194,7 @@
 	    L586,606.9L574.4,621.7z"/>
 	      <text transform="matrix(1 0 0 1 567.9824 661.4209)" class="label">1100</text>
 	</g>
-	<g class="room-group" id="einstein-bros-bagels" onclick="activateRoom('einstein-bros-bagels')">
+	<g class="room-group" id="einsteinbrosbagels" onclick="activateRoom('Einstein-Bros-Bagels')">
 	  <path class="room" d="M572.7,272.2c25.3,32.9,43.2,71.9,51,114.4l43.4-8.3v-32.1l-13.9-32.8l19.3-8.4l-7.7-16.1l-12.3-24.6
 	    l-24.2-35.7l-32.9,25.6L572.7,272.2z"/>
     <text transform="matrix(1 0 0 1 594.3848 294.5869)"><tspan x="0" y="0" class="label">Einstein Bros</tspan><tspan x="15.6" y="14.4" class="label">Bagels</tspan></text>
@@ -634,3 +634,21 @@
 	</g>
 </g>
 </svg>
+<script>
+		function roomPrinter() {
+				var buildingContent = document.getElementById('Rooms').childNodes;
+				var roomList = [];
+				var i;
+				var n;
+				for (i = 0; i < buildingContent.length; i++) {
+						roomList.push(buildingContent[i].id);
+				}
+				for(n = roomList.length; n--;){
+				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+				}
+				for (nn=0; nn < roomList.length; nn++){
+					console.log(roomList[nn]);
+				}
+		}
+		roomPrinter();
+	</script>

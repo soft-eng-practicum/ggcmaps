@@ -154,7 +154,7 @@
 	<path class="room" d="M453.995,169.915c-4.774,31.001-14.024,57.237-24.539,72.125l72.044,0v-72.125L453.995,169.915z"/>
 	</g>
 
-  <g onclick="activateRoom('info-desk');" id="info-desk" class="room-group">
+  <g onclick="activateRoom('Info-Desk');" id="infodesk" class="room-group">
 	   <path class="room" d="M490.083,139.082H459.75l-1.75,8.333h3.375l-3.953,22.5H501.5v-44.83l-4.998-4.087v-12.417l-44.309-24.268
 		c3.203,11.257,5,25.805,5.102,42.256l3.918,0.544l0.85-6.949l-2.313,18.917"/>
     <text transform="matrix(1 0 0 1 468.0371 114.0776)"><tspan x="0" y="0" class="label">Info</tspan><tspan x="-2.382" y="12" class="label">Desk</tspan></text>
@@ -235,7 +235,7 @@
 	<polygon class="room" points="610,359.416 610,336.585 634.667,336.497 634.667,359.416 	"/>
 	</g>
 
-  <g onclick="activateRoom('catering-kitchen');" id="catering-kitchen" class="room-group">
+  <g onclick="activateRoom('Catering-Kitchen');" id="cateringkitchen" class="room-group">
 	   <polygon class="room" points="584.167,355.291 610,355.291 610,359.416 634.667,359.416 634.667,469.916 584.167,469.916 	"/>
      <text transform="matrix(1 0 0 1 592.7383 396.1655)"><tspan x="0" y="0" class="label">Catering</tspan><tspan x="2.666" y="12" class="label">Kitchen</tspan></text>
   </g>
@@ -515,3 +515,21 @@
 	</g>
 </g>
 </svg>
+<script>
+		function roomPrinter() {
+				var buildingContent = document.getElementById('rooms').childNodes;
+				var roomList = [];
+				var i;
+				var n;
+				for (i = 0; i < buildingContent.length; i++) {
+						roomList.push(buildingContent[i].id);
+				}
+				for(n = roomList.length; n--;){
+				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+				}
+				for (nn=0; nn < roomList.length; nn++){
+					console.log(roomList[nn]);
+				}
+		}
+		roomPrinter();
+	</script>

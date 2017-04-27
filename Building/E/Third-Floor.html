@@ -200,7 +200,7 @@
 		398.329,261.75 	"/>
 	<rect x="254.188" y="256.063" class="fill" width="5.875" height="6.188"/>
 </g>
-<g id="room">
+<g id="rooms">
   <g onclick="activateRoom('3116');" id="3116" class="room-group">
 	   <path class="room" d="M606.356,134.677c14.416,8.095,28.503,15.537,42.358,22.481l-3.586,7.241l5.746,2.851l3.584-7.233
 		c1.161,0.574,2.321,1.144,3.479,1.71l-26.188,54.024l-3.041-1.474l3.422-6.9l-5.747-2.851l-3.447,6.952l-34.188-16.573v-14.321
@@ -530,3 +530,21 @@
 	</g>
 </g>
 </svg>
+<script>
+		function roomPrinter() {
+				var buildingContent = document.getElementById('rooms').childNodes;
+				var roomList = [];
+				var i;
+				var n;
+				for (i = 0; i < buildingContent.length; i++) {
+						roomList.push(buildingContent[i].id);
+				}
+				for(n = roomList.length; n--;){
+				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+				}
+				for (nn=0; nn < roomList.length; nn++){
+					console.log(roomList[nn]);
+				}
+		}
+		roomPrinter();
+	</script>

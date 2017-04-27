@@ -7,31 +7,31 @@
       },
       {
         "name": "chick-fil-a",
-        "id": "chick-fil-a"
+        "id": "chickfila"
       },
       {
         "name": "CFA",
-        "id": "chick-fil-a"
+        "id": "chickfila"
       },
       {
         "name": "chickfila",
-        "id": "chick-fil-a"
+        "id": "chickfila"
       },
       {
         "name": "chick-fil",
-        "id": "chick-fil-a"
+        "id": "chickfila"
       },
       {
         "name": "chick",
-        "id": "chick-fil-a"
+        "id": "chickfila"
       },
       {
         "name": "panda-express",
-        "id": "panda-express"
+        "id": "pandaexpress"
       },
       {
         "name": "panda",
-        "id": "panda-express"
+        "id": "pandaexpress"
       },
       {
         "name": "moe-s-southwest-grill",
@@ -79,19 +79,19 @@
     "1": [
       {
         "name": "einstein-bros-bagels",
-        "id": "einstein-bros-bagels"
+        "id": "einsteinbrosbagels"
       },
       {
         "name": "einstein-bros",
-        "id": "einstein-bros-bagels"
+        "id": "einsteinbrosbagels"
       },
       {
         "name": "einstein-s",
-        "id": "einstein-bros-bagels"
+        "id": "einsteinbrosbagels"
       },
       {
         "name": "einsteins",
-        "id": "einstein-bros-bagels"
+        "id": "einsteinbrosbagels"
       }
     ],
     "2": [
@@ -224,44 +224,44 @@
   "E": {
     "1": [
       {
-        "name": "game-room",
-        "id": "game-room"
+        "name": "Game-Room",
+        "id": "gameroom"
       },
       {
-        "name": "dining-hall",
-        "id": "dining-hall"
+        "name": "Dining-Hall",
+        "id": "dininghall"
       },
       {
-        "name": "dining-area",
-        "id": "dining-hall"
+        "name": "Dining-Area",
+        "id": "dininghall"
       },
       {
-        "name": "dining",
-        "id": "dining-hall"
+        "name": "Dining",
+        "id": "dininghall"
       },
       {
-        "name": "multi-purpose-room",
-        "id": "multi-purpose-room"
+        "name": "Multi-Purpose-room",
+        "id": "multipurposeroom"
       },
       {
-        "name": "private-dining",
-        "id": "private-dining"
+        "name": "Private-Dining",
+        "id": "privatedining"
       },
       {
-        "name": "food-stations",
-        "id": "food-stations"
+        "name": "Food-Stations",
+        "id": "foodstations"
       },
       {
-        "name": "kitchen-area",
-        "id": "kitchen-area"
+        "name": "Kitchen-Area",
+        "id": "kitchenarea"
       },
       {
-        "name": "kitchen",
-        "id": "kitchen-area"
+        "name": "Kitchen",
+        "id": "kitchenarea"
       },
       {
-        "name": "outdoor-dining",
-        "id": "outdoor-dining"
+        "name": "Outdoor-Dining",
+        "id": "outdoordining"
       }
     ],
     "2": [
@@ -282,16 +282,16 @@
         "id": "lvis"
       },
       {
-        "name": "catering-kitchen",
-        "id": "catering-kitchen"
+        "name": "Catering-Kitchen",
+        "id": "cateringkitchen"
       },
       {
         "name": "lounge",
         "id": "lounge"
       },
       {
-        "name": "info-desk",
-        "id": "info-desk"
+        "name": "Info-Desk",
+        "id": "infodesk"
       },
       {
         "name": "career-services",
@@ -408,122 +408,122 @@
   "F": {
     "1": [
       {
-        "name": "jr-olympic-pool",
-        "id": "jr-olympic-pool"
+        "name": "Jr-Olympic-Pool",
+        "id": "jrolympicpool"
       },
       {
-        "name": "swimming-pool",
-        "id": "jr-olympic-pool"
+        "name": "Swimming-Pool",
+        "id": "jrolympicpool"
       },
       {
-        "name": "pool",
-        "id": "jr-olympic-pool"
+        "name": "Pool",
+        "id": "jrolympicpool"
       },
       {
-        "name": "basketball-court",
-        "id": "basketball-court"
+        "name": "Basketball-Court",
+        "id": "basketballcourt"
       },
       {
-        "name": "basketball",
-        "id": "basketball-court"
+        "name": "Basketball",
+        "id": "basketballcourt"
       },
       {
-        "name": "racquet-ball",
-        "id": "racquet-ball-court-1"
+        "name": "Racquet-Ball",
+        "id": "racquetballcourt1"
       },
       {
-        "name": "racquet-ball-court",
-        "id": "racquet-ball-court-1"
+        "name": "Racquet-Ball-Court",
+        "id": "racquetballcourt1"
       },
       {
-        "name": "racquet-ball-court-1",
-        "id": "racquet-ball-court-1"
+        "name": "Racquet-Ball-Court-1",
+        "id": "racquetballcourt1"
       },
       {
-        "name": "racquet-ball-court-2",
-        "id": "racquet-ball-court-2"
+        "name": "Racquet-Ball-Court-2",
+        "id": "racquetballcourt2"
       },
       {
-        "name": "racquet-ball-court-3",
-        "id": "racquet-ball-court-3"
+        "name": "Racquet-Ball-Court-3",
+        "id": "racquetballcourt3"
       },
       {
-        "name": "mens-lockers",
-        "id": "mens-lockers"
+        "name": "Mens-Lockers",
+        "id": "menslockers"
       },
       {
-        "name": "mens-locker",
-        "id": "mens-lockers"
+        "name": "Mens-Locker",
+        "id": "menslockers"
       },
       {
-        "name": "mens-locker-room",
-        "id": "mens-lockers"
+        "name": "Mens-Locker-Room",
+        "id": "menslockers"
       },
       {
-        "name": "men-s-lockers",
-        "id": "mens-lockers"
+        "name": "Men-s-Lockers",
+        "id": "menslockers"
       },
       {
-        "name": "men-s-locker-room",
-        "id": "mens-lockers"
+        "name": "Men-s-Locker-Room",
+        "id": "menslockers"
       },
       {
-        "name": "womens-lockers",
-        "id": "womens-lockers"
+        "name": "Womens-Lockers",
+        "id": "womenslockers"
       },
       {
-        "name": "womens-locker",
-        "id": "womens-lockers"
+        "name": "Womens-Locker",
+        "id": "womenslockers"
       },
       {
-        "name": "women-s-lockers",
-        "id": "womens-lockers"
+        "name": "Women-s-Lockers",
+        "id": "womenslockers"
       },
       {
-        "name": "women-s-locker-room",
-        "id": "womens-lockers"
+        "name": "Women-s-Locker-Room",
+        "id": "womenslockers"
       }
     ],
     "2": [
       {
-        "name": "weight-machines",
-        "id": "weight-machines"
+        "name": "Weight-Machines",
+        "id": "weightmachines"
       },
       {
-        "name": "free-weights",
-        "id": "free-weights"
+        "name": "Free-Weights",
+        "id": "freeweights"
       },
       {
-        "name": "weight-room",
-        "id": "free-weights"
+        "name": "Weight-Room",
+        "id": "freeweights"
       },
       {
-        "name": "weights-room",
-        "id": "free-weights"
+        "name": "Weights-Room",
+        "id": "freeweights"
       },
       {
-        "name": "aerobics",
+        "name": "Aerobics",
         "id": "aerobics"
       },
       {
-        "name": "spin-room",
-        "id": "spin-room"
+        "name": "Spin-Room",
+        "id": "spinroom"
       },
       {
-        "name": "cardio",
+        "name": "Cardio",
         "id": "cardio"
       },
       {
-        "name": "elevated-track",
-        "id": "elevated-track"
+        "name": "Elevated-Track",
+        "id": "elevatedtrack"
       },
       {
-        "name": "indoor-track",
-        "id": "elevated-track"
+        "name": "Indoor-Track",
+        "id": "elevatedtrack"
       },
       {
-        "name": "track",
-        "id": "elevated-track"
+        "name": "Track",
+        "id": "elevatedtrack"
       }
     ]
   },

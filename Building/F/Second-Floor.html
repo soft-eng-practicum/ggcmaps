@@ -58,27 +58,27 @@
 	<rect x="2.833" y="3.005" class="outline" width="377" height="257"/>
 </g>
 <g id="rooms">
-	<g onclick="activateRoom('elevated-track');" id="elevated-track" class="room-group">
+	<g onclick="activateRoom('Elevated-Track');" id="elevatedtrack" class="room-group">
 		<rect x="174.333" y="122.505" class="room" width="205.5" height="137.5"/>
 		<text transform="matrix(0 1 -1 0 177.1318 157.9092)" class="label">Elevated Track</text>
 	</g>
 
-	<g onclick="activateRoom('aerobics');" id="aerobics" class="room-group">
+	<g onclick="activateRoom('Aerobics');" id="aerobics" class="room-group">
 		<rect x="99.167" y="25.671" class="room" width="75.167" height="102.084"/>
 		<text transform="matrix(1 0 0 1 113.4063 77.0039)" class="label">Aerobics</text>
 	</g>
 
-	<g onclick="activateRoom('spin-room');" id="spin-room" class="room-group">
+	<g onclick="activateRoom('Spin-Room');" id="spinroom" class="room-group">
 		<rect x="99.167" y="3.005" class="room" width="75.167" height="22.666"/>
 		<text transform="matrix(1 0 0 1 107.0693 17.5049)" class="label">Spin Room</text>
 	</g>
 
-	<g onclick="activateRoom('weight-machines');" id="weight-machines" class="room-group">
+	<g onclick="activateRoom('Weight-Machines');" id="weightmachines" class="room-group">
 		<rect x="2.833" y="3.005" class="room" width="87.167" height="71.999"/>
 		<text transform="matrix(1 0 0 1 27.6768 35.0049)"><tspan x="0" y="0" class="label">Weight</tspan><tspan x="-7.005" y="14.4" class="label">Machines</tspan></text>
 	</g>
 
-	<g onclick="activateRoom('cardio');" id="cardio" class="room-group">
+	<g onclick="activateRoom('Cardio');" id="cardio" class="room-group">
 		<polygon class="room" points="90,132.505 59.167,132.505 59.167,148.672 2.703,148.672 2.833,75.004 90,75.004 	"/>
 		<text transform="matrix(1 0 0 1 28.7422 106.5049)" class="label">Cardio</text>
 	</g>
@@ -87,7 +87,7 @@
 		<rect x="83" y="140.838" class="room" width="16.167" height="25.167"/>
 	</g>
 
-	<g onclick="activateRoom('free-weights');" id="free-weights" class="room-group">
+	<g onclick="activateRoom('Free-Weights');" id="freeweights" class="room-group">
 		<polygon class="room" points="99.167,260.005 2.703,260.005 2.703,148.672 73.333,148.672 73.333,166.005 99.167,166.005 	"/>
 		<text transform="matrix(1 0 0 1 15.2568 207.3389)" class="label">Free Weights</text>
 	</g>
@@ -171,3 +171,21 @@
 	</g>
 </g>
 </svg>
+<script>
+		function roomPrinter() {
+				var buildingContent = document.getElementById('rooms').childNodes;
+				var roomList = [];
+				var i;
+				var n;
+				for (i = 0; i < buildingContent.length; i++) {
+						roomList.push(buildingContent[i].id);
+				}
+				for(n = roomList.length; n--;){
+				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+				}
+				for (nn=0; nn < roomList.length; nn++){
+					console.log(roomList[nn]);
+				}
+		}
+		roomPrinter();
+	</script>

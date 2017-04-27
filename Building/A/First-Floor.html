@@ -87,7 +87,7 @@
 </g>
 <g id="Rooms">
 	<g onclick="activateRoom('1884');" id="1884" class="room-group">
-		<rect id=1884 x="159.42" y="281.76" class="room" width="13.2" height="12.6"/>
+		<rect id="1884" x="159.42" y="281.76" class="room" width="13.2" height="12.6"/>
 		<text transform="matrix(1 0 0 1 160.5508 289.4033)" class="label micro-font">1884</text>
     </g>
 	<g onclick="activateRoom('1885');" id="1885" class="room-group">
@@ -876,11 +876,11 @@
 	77.2,255.1 77.2,243.5 117.5,243.5 117.5,203.4 134.2,203.4 134.2,187.8 146.2,187.8 	"/>
 		<text transform="matrix(1 0 0 1 83.4395 184.04)"><tspan x="0" y="0" class="label">Dining</tspan><tspan x="0" y="14.4" class="label">Services</tspan></text>
     </g>
-	<g id="chick-fil-a" onclick="activateRoom('chick-fil-a');" class="room-group">
+	<g id="chickfila" onclick="activateRoom('Chick-Fil-A');" class="room-group">
 		<rect x="52" y="151.6" class="room" width="25.2" height="27.7"/>
 		<text transform="matrix(4.489659e-011 1 -1 4.489659e-011 60.8315 154.7939)" class="label">CFA</text>
 	</g>
-	<g id="panda-express" onclick="activateRoom('Panda-Express');" class="room-group">
+	<g id="pandaexpress" onclick="activateRoom('Panda-Express');" class="room-group">
 		<polygon class="room" points="52,215 77.2,215 77.2,179.3 52,179.3 		"/>
 		<text transform="matrix(4.489659e-011 1 -1 4.489659e-011 60.8315 182)" class="label">PANDA</text>
 	</g>
@@ -1576,3 +1576,21 @@
 	</g>
 </g>
 </svg>
+<script>
+      function roomPrinter() {
+          var buildingContent = document.getElementById('Rooms').childNodes;
+          var roomList = [];
+          var i;
+          var n;
+          for (i = 0; i < buildingContent.length; i++) {
+              roomList.push(buildingContent[i].id);
+          }
+          for(n = roomList.length; n--;){
+          if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+          }
+	        for (nn=0; nn < roomList.length; nn++){
+	          console.log(roomList[nn]);
+	        }
+      }
+      roomPrinter();
+    </script>

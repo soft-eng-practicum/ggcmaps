@@ -1,0 +1,9 @@
+classroom
+racquet-ball-court-3
+racquet-ball-court-2
+racquet-ball-court-1
+mechanical
+jr-olympic-pool
+basketball-court
+mens-lockers
+womens-lockers

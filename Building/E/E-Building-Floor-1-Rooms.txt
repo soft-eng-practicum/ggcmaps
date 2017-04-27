@@ -1,0 +1,7 @@
+game-room
+private-dining
+multi-purpose-room
+kitchen-area
+food-stations
+dining-hall
+outdoor-dining

@@ -443,3 +443,21 @@
 	</g>
 </g>
 </svg>
+<script>
+		function roomPrinter() {
+				var buildingContent = document.getElementById('rooms').childNodes;
+				var roomList = [];
+				var i;
+				var n;
+				for (i = 0; i < buildingContent.length; i++) {
+						roomList.push(buildingContent[i].id);
+				}
+				for(n = roomList.length; n--;){
+				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+				}
+				for (nn=0; nn < roomList.length; nn++){
+					console.log(roomList[nn]);
+				}
+		}
+		roomPrinter();
+	</script>

@@ -143,19 +143,19 @@
 	<rect x="286.75" y="57.464" class="room" width="23.5" height="21.25"/>
 </g>
 
-<g onclick="activateRoom('game-room');" id="game-room" class="room-group">
+<g onclick="activateRoom('Game-Room');" id="gameroom" class="room-group">
 	<polygon class="room" points="188.75,196.464 188.75,176.879 195.75,176.879 195.75,146.293 188.75,146.293 188.75,132.21
 		195.75,132.21 195.75,101.373 188.75,101.373 188.75,78.714 131.75,78.714 131.75,196.464 	"/>
 	<text transform="matrix(1 0 0 1 140.8491 135.5894)"><tspan x="0" y="0" class="label">Game</tspan><tspan x="0" y="16.8" class="label">Room</tspan></text>
 </g>
 
-<g onclick="activateRoom('private-dining');" id="private-dining" class="room-group">
+<g onclick="activateRoom('Private-Dining');" id="privatedining" class="room-group">
 	<polygon class="room" points="188.75,196.464 188.75,176.879 195.75,176.879 195.75,146.293 188.75,146.293 188.75,132.21
 		195.75,132.21 195.75,101.373 188.75,101.373 188.75,78.714 250.5,78.714 250.5,196.464 	"/>
 		<text transform="matrix(1 0 0 1 202.2388 137.5894)"><tspan x="0" y="0" class="label">Private</tspan><tspan x="0" y="16.8" class="label">Dining</tspan></text>
 </g>
 
-<g onclick="activateRoom('multi-purpose-room');" id="multi-purpose-room" class="room-group">
+<g onclick="activateRoom('Multi-Purpose-Room');" id="multipurposeroom" class="room-group">
 	<polygon class="room" points="43.5,36.964 94,36.964 94,78.714 131.75,78.714 131.75,196.464 43.5,196.464 	"/>
 	<text transform="matrix(1 0 0 1 51.3203 137.5894)"><tspan x="0" y="0" class="label">Multi-Purpose</tspan><tspan x="21.009" y="14.4" class="label">Room</tspan></text>
 </g>
@@ -176,14 +176,14 @@
 	<rect x="610.625" y="290.464" class="room" width="23.625" height="23.5"/>
 </g>
 
-<g onclick="activateRoom('kitchen-area');" id="kitchen-area" class="room-group">
+<g onclick="activateRoom('Kitchen-Area');" id="kitchenarea" class="room-group">
 	<path class="room" d="M503,171.964v-72.75h-39.833v-3.25H459v99.75h62.438H483v28.588l13.833,24.665v17.917L483,299.96h-10.833
 		v10.25H483l13.833,33.502v20.083l-16.319,16.073c-3.826-4.024-9.231-6.534-15.223-6.534c-11.598,0-20.999,9.402-20.999,21.001
 		c0,6.854,3.284,12.94,8.365,16.773l7.676,7.687v61.669h125.501v38h48.416v-93.167h-64.916L569,171.964H503z"/>
 		<text transform="matrix(1 0 0 1 479.3027 410.2974)" class="label">Kitchen Area</text>
 </g>
 
-<g onclick="activateRoom('food-stations');" id="food-stations" class="room-group">
+<g onclick="activateRoom('Food-Stations');" id="foodstations" class="room-group">
 	<path class="room" d="M376.531,291.871L350.5,319.054v161.41h65.834v-9.563l2.833-2.271h31.667v-44.333l5.333-5.503h4.166
 		l-7.452-7.462l-6.571,6.665c-6.241-5.577-10.168-13.687-10.168-22.712c0-16.818,13.632-30.452,30.449-30.452
 		c4.076,0,7.966,0.802,11.519,2.255l8.808-9.96h9.916v-8.5h-9.916v-1.757l-14.146-33.971l-2.041,0.5
@@ -196,7 +196,7 @@
 	<path class="room" d="M348.952,311.281"/>
 </g>
 
-<g onclick="activateRoom('dining-hall');" id="dining-hall" class="room-group">
+<g onclick="activateRoom('Dining-Hall');" id="dininghall" class="room-group">
 	<path class="room" d="M445.875,170.339l-10.625-3.125l1.188-3.063l6.541,1.89l4.896-15.743l-7.063-2.334l0.938-3.125l10.313,3.125
 		L445.875,170.339z M451.439,150.217H459v-23.003h-1.875v1.938l-11.313-1.938l0.688-3.25l7.063,1.167L459,95.964h4.167v3.25h24.554
 		l-0.006-29.165c-36.035-24.905-69.477-50.118-79.84-61.085h-82.042v28.5h80.333v53.333h-35V37.464H310.25v41.25H250.5v117.75
@@ -206,7 +206,7 @@
 		<text transform="matrix(1 0 0 1 325.834 171.9644)" class="label">Dining Hall</text>
 </g>
 
-<g onclick="activateRoom('outdoor-dining');" id="outdoor-dining" class="room-group">
+<g onclick="activateRoom('Outdoor-Dining');" id="outdoordining" class="room-group">
 	<path class="room" d="M254.551,237.054l-71.884,12.871c13.521,61.373,46.027,109.992,46.027,109.992
 		c16.91-5.924,33.229-13.242,47.346-20.875l12.605,22.361c7.438-4.255,14.473-8.7,21.016-13.258
 		C305.599,344.758,267.433,299.867,254.551,237.054c-2.644-12.894-4.223-26.542-4.223-40.741"/>
@@ -494,3 +494,21 @@
 	</g>
 </g>
 </svg>
+<script>
+		function roomPrinter() {
+				var buildingContent = document.getElementById('rooms').childNodes;
+				var roomList = [];
+				var i;
+				var n;
+				for (i = 0; i < buildingContent.length; i++) {
+						roomList.push(buildingContent[i].id);
+				}
+				for(n = roomList.length; n--;){
+				if (roomList[n] === undefined || roomList[n] === '') roomList.splice(n, 1);
+				}
+				for (nn=0; nn < roomList.length; nn++){
+					console.log(roomList[nn]);
+				}
+		}
+		roomPrinter();
+	</script>
