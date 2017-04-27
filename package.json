@@ -1,8 +1,16 @@
 {
   "name": "GGCMaps",
-  "version": "1.0.0",
+  "version": "1.4.2",
   "private": true,
-  "author": "Mike Deiters",
+  "authors": [
+    "Aston Tsou",
+    "Carlos Pacheco",
+    "David Rivera",
+    "Josh Gerth",
+    "Maggie Muse",
+    "Mike Deiters",
+    "Nareth Seang"
+  ],
   "license": "Creative Commons",
   "scripts": {
     "start": "http-server -p 3000"

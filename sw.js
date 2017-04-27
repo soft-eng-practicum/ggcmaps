@@ -1,4 +1,4 @@
-var CACHE_NAME = 'GGCMaps-cache-v1.4.1';
+var CACHE_NAME = 'GGCMaps-cache-v1.4.2';
 // baseURL is used to switch between hosting structures.
 // Set to null ('') for regular hosting
 // Set to directory inside Github Pages
