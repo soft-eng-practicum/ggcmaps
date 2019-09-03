@@ -11,6 +11,7 @@ We have outlined below what tools are required, and how to get started to be abl
 #### Table of Contents
 
 [What should I know before I get started?](#what-should-i-know-before-i-get-started)
+  * Install grunt globally and then change your working directory to the filepath of the project and run npm i
   * [Using Docker](https://github.com/ggcmaps/ggcmaps.github.io#docker.md)
   * [Developer Dependencies](#developer-dependencies)
   * [Getting Started Grunt](#setting-up-grunt)
@@ -44,6 +45,7 @@ For developing GGC Maps you can either install the project dependencies to your 
   1. Before setting up Grunt ensure that your npm is up to date by running `npm update -g npm` (this might require `sudo` depending on your system)
   2. To get started you need Grunt's command line interface (CLI) globally. Again you my need `sudo` to run `npm install -g grunt-cli`
   3. Now after you install the project dependencies you will be able to run `grunt`
+  4. Navigate to the filepath containing the project and run npm i to install grunt and all needed dependencies to the project
 
 ### Setting Up Sass
 
